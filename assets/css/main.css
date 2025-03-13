@@ -915,6 +915,8 @@ section,
 }
 
 .hero .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--accent-color);
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 14px;
@@ -923,8 +925,9 @@ section,
   padding: 14px 40px;
   border-radius: 50px;
   transition: 0.3s;
-  border: 2px solid color-mix(in srgb, white, transparent 90%);
-  background-color: color-mix(in srgb, white, transparent 90%);
+  border: 2px solid rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.1);
+
 }
 
 .hero .btn-get-started:hover {
