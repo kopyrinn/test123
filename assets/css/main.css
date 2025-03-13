@@ -925,8 +925,8 @@ section,
   padding: 14px 40px;
   border-radius: 50px;
   transition: 0.3s;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 2px solid color-mix(in srgb, white, transparent 90%);
+  background-color: color-mix(in srgb, white, transparent 90%);
 }
 
 .hero .btn-get-started:hover {
